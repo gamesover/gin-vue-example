@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="./assets/logo.png" />
     <Example />
   </div>
 </template>
@@ -11,8 +11,8 @@ import Example from './components/Example.vue'
 export default {
   name: 'App',
   components: {
-    Example
-  }
+    Example,
+  },
 }
 </script>
 
