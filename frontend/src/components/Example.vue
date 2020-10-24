@@ -20,7 +20,6 @@ export default {
 }
 function showMessage() {
   axios.get('/api/v1/hello').then((res) => {
-    console.log(res)
     appData.message = res.data.message
   })
 }
